@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bed time story</title>
+</head>
+<body>
+    <h1>Bed time story</h1>
+    {% for title in titles%}
+    <button onclick = "location.href = '/{{title}}'">{{title}}</button>
+    {% endfor%}
+</body>
+</html>
